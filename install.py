@@ -2,7 +2,6 @@ import sys
 import os
 import pip
 import time
-from termcolor import colored, cprint
 
 if not os.geteuid() == 0:
 	sys.exit('You must Run this Script as ROOT!')
